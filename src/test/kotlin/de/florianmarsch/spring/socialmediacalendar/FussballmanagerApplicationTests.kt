@@ -1,4 +1,4 @@
-package de.florianmarsch.spring.fussballmanager
+package de.florianmarsch.spring.socialmediacalendar
 
 import org.junit.jupiter.api.Test
 import org.springframework.boot.test.context.SpringBootTest

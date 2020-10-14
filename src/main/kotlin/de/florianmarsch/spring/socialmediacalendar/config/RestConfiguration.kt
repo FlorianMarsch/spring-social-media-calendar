@@ -1,4 +1,4 @@
-package de.florianmarsch.spring.fussballmanager.config
+package de.florianmarsch.spring.socialmediacalendar.config
 
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.context.annotation.Configuration

@@ -1,4 +1,4 @@
-package de.florianmarsch.spring.fussballmanager.config
+package de.florianmarsch.spring.socialmediacalendar.config
 
 import com.zaxxer.hikari.HikariConfig
 import com.zaxxer.hikari.HikariDataSource

@@ -1,1 +1,1 @@
-rootProject.name = "fussballmanager"
+rootProject.name = "social-media-calendar"

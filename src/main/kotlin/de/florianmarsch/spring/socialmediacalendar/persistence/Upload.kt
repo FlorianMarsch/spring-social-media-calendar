@@ -11,8 +11,8 @@ data class Upload(
         var id: String = UUID.randomUUID().toString()
 ) :Serializable{
 
-        @Lob
+
         @Column(nullable = false)
-        var file : InputStream? = null
+        var file : String? = null
 
 }

@@ -48,6 +48,7 @@ dependencies {
 
 	implementation ("org.jetbrains.kotlinx:kotlinx-coroutines-core:1.2.1")
 
+	implementation ("org.brunocvcunha.instagram4j:instagram4j:1.14")
 
 	annotationProcessor("org.springframework.boot:spring-boot-configuration-processor")
 	annotationProcessor(group = "com.querydsl", name = "querydsl-apt", classifier = "jpa")

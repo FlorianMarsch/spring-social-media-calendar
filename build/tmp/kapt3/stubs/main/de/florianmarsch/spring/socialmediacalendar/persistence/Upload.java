@@ -7,6 +7,7 @@ import java.lang.System;
 public final class Upload implements java.io.Serializable {
     @org.jetbrains.annotations.Nullable()
     @javax.persistence.Column(nullable = false)
+    @javax.persistence.Lob()
     private java.lang.String file;
     @org.jetbrains.annotations.NotNull()
     @javax.persistence.Id()

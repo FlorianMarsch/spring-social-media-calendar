@@ -12,6 +12,7 @@ data class Upload(
 ) :Serializable{
 
 
+        @Lob
         @Column(nullable = false)
         var file : String? = null
 

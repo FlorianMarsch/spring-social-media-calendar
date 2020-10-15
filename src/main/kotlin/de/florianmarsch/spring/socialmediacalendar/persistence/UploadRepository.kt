@@ -8,7 +8,7 @@ import org.springframework.data.web.PageableDefault
 import org.springframework.stereotype.Repository
 
 @Repository
-interface UploadRepository : PagingAndSortingRepository<Upload?, String?> {
+interface UploadRepository : PagingAndSortingRepository<Upload, String> {
 
 
 

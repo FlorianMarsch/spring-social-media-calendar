@@ -2,7 +2,7 @@ package de.florianmarsch.spring.socialmediacalendar.persistence;
 
 import java.lang.System;
 
-@kotlin.Metadata(mv = {1, 1, 16}, bv = {1, 0, 3}, k = 1, d1 = {"\u0000.\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000e\n\u0002\b\u0011\n\u0002\u0018\u0002\n\u0002\b\u0013\n\u0002\u0010\u000b\n\u0000\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010\b\n\u0002\b\u0002\b\u0087\b\u0018\u00002\u00020\u0001B\u000f\u0012\b\b\u0002\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\u0002\u0010\u0004J\t\u0010&\u001a\u00020\u0003H\u00c6\u0003J\u0013\u0010\'\u001a\u00020\u00002\b\b\u0002\u0010\u0002\u001a\u00020\u0003H\u00c6\u0001J\u0013\u0010(\u001a\u00020)2\b\u0010*\u001a\u0004\u0018\u00010+H\u00d6\u0003J\t\u0010,\u001a\u00020-H\u00d6\u0001J\t\u0010.\u001a\u00020\u0003H\u00d6\u0001R \u0010\u0005\u001a\u0004\u0018\u00010\u00038\u0006@\u0006X\u0087\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\b\u0006\u0010\u0007\"\u0004\b\b\u0010\u0004R \u0010\t\u001a\u0004\u0018\u00010\u00038\u0006@\u0006X\u0087\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\b\n\u0010\u0007\"\u0004\b\u000b\u0010\u0004R\u001e\u0010\u0002\u001a\u00020\u00038\u0006@\u0006X\u0087\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\b\f\u0010\u0007\"\u0004\b\r\u0010\u0004R \u0010\u000e\u001a\u0004\u0018\u00010\u00038\u0006@\u0006X\u0087\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\b\u000f\u0010\u0007\"\u0004\b\u0010\u0010\u0004R \u0010\u0011\u001a\u0004\u0018\u00010\u00038\u0006@\u0006X\u0087\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\b\u0012\u0010\u0007\"\u0004\b\u0013\u0010\u0004R \u0010\u0014\u001a\u0004\u0018\u00010\u00158\u0006@\u0006X\u0087\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\b\u0016\u0010\u0017\"\u0004\b\u0018\u0010\u0019R \u0010\u001a\u001a\u0004\u0018\u00010\u00158\u0006@\u0006X\u0087\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\b\u001b\u0010\u0017\"\u0004\b\u001c\u0010\u0019R \u0010\u001d\u001a\u0004\u0018\u00010\u00038\u0006@\u0006X\u0087\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\b\u001e\u0010\u0007\"\u0004\b\u001f\u0010\u0004R \u0010 \u001a\u0004\u0018\u00010\u00038\u0006@\u0006X\u0087\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\b!\u0010\u0007\"\u0004\b\"\u0010\u0004R \u0010#\u001a\u0004\u0018\u00010\u00038\u0006@\u0006X\u0087\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\b$\u0010\u0007\"\u0004\b%\u0010\u0004\u00a8\u0006/"}, d2 = {"Lde/florianmarsch/spring/socialmediacalendar/persistence/Posting;", "Ljava/io/Serializable;", "id", "", "(Ljava/lang/String;)V", "channel", "getChannel", "()Ljava/lang/String;", "setChannel", "description", "getDescription", "setDescription", "getId", "setId", "link", "getLink", "setLink", "picture", "getPicture", "setPicture", "plannedDate", "Ljava/util/Date;", "getPlannedDate", "()Ljava/util/Date;", "setPlannedDate", "(Ljava/util/Date;)V", "publishDate", "getPublishDate", "setPublishDate", "status", "getStatus", "setStatus", "text", "getText", "setText", "title", "getTitle", "setTitle", "component1", "copy", "equals", "", "other", "", "hashCode", "", "toString", "social-media-calendar"})
+@kotlin.Metadata(mv = {1, 1, 16}, bv = {1, 0, 3}, k = 1, d1 = {"\u0000.\n\u0002\u0018\u0002\n\u0002\u0018\u0002\n\u0000\n\u0002\u0010\u000e\n\u0002\b\u0011\n\u0002\u0018\u0002\n\u0002\b\u0013\n\u0002\u0010\u000b\n\u0000\n\u0002\u0010\u0000\n\u0000\n\u0002\u0010\b\n\u0002\b\u0002\b\u0087\b\u0018\u00002\u00020\u0001B\u000f\u0012\b\b\u0002\u0010\u0002\u001a\u00020\u0003\u00a2\u0006\u0002\u0010\u0004J\t\u0010&\u001a\u00020\u0003H\u00c6\u0003J\u0013\u0010\'\u001a\u00020\u00002\b\b\u0002\u0010\u0002\u001a\u00020\u0003H\u00c6\u0001J\u0013\u0010(\u001a\u00020)2\b\u0010*\u001a\u0004\u0018\u00010+H\u00d6\u0003J\t\u0010,\u001a\u00020-H\u00d6\u0001J\t\u0010.\u001a\u00020\u0003H\u00d6\u0001R \u0010\u0005\u001a\u0004\u0018\u00010\u00038\u0006@\u0006X\u0087\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\b\u0006\u0010\u0007\"\u0004\b\b\u0010\u0004R \u0010\t\u001a\u0004\u0018\u00010\u00038\u0006@\u0006X\u0087\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\b\n\u0010\u0007\"\u0004\b\u000b\u0010\u0004R\u001e\u0010\u0002\u001a\u00020\u00038\u0006@\u0006X\u0087\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\b\f\u0010\u0007\"\u0004\b\r\u0010\u0004R \u0010\u000e\u001a\u0004\u0018\u00010\u00038\u0006@\u0006X\u0087\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\b\u000f\u0010\u0007\"\u0004\b\u0010\u0010\u0004R \u0010\u0011\u001a\u0004\u0018\u00010\u00038\u0006@\u0006X\u0087\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\b\u0012\u0010\u0007\"\u0004\b\u0013\u0010\u0004R \u0010\u0014\u001a\u0004\u0018\u00010\u00158\u0006@\u0006X\u0087\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\b\u0016\u0010\u0017\"\u0004\b\u0018\u0010\u0019R \u0010\u001a\u001a\u0004\u0018\u00010\u00158\u0006@\u0006X\u0087\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\b\u001b\u0010\u0017\"\u0004\b\u001c\u0010\u0019R \u0010\u001d\u001a\u0004\u0018\u00010\u00038\u0006@\u0006X\u0087\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\b\u001e\u0010\u0007\"\u0004\b\u001f\u0010\u0004R \u0010 \u001a\u0004\u0018\u00010\u00038\u0006@\u0006X\u0087\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\b!\u0010\u0007\"\u0004\b\"\u0010\u0004R \u0010#\u001a\u0004\u0018\u00010\u00038\u0006@\u0006X\u0087\u000e\u00a2\u0006\u000e\n\u0000\u001a\u0004\b$\u0010\u0007\"\u0004\b%\u0010\u0004\u00a8\u0006/"}, d2 = {"Lde/florianmarsch/spring/socialmediacalendar/persistence/Posting;", "Ljava/io/Serializable;", "id", "", "(Ljava/lang/String;)V", "channel", "getChannel", "()Ljava/lang/String;", "setChannel", "description", "getDescription", "setDescription", "getId", "setId", "link", "getLink", "setLink", "picture", "getPicture", "setPicture", "plannedDate", "Ljava/time/LocalDateTime;", "getPlannedDate", "()Ljava/time/LocalDateTime;", "setPlannedDate", "(Ljava/time/LocalDateTime;)V", "publishDate", "getPublishDate", "setPublishDate", "status", "getStatus", "setStatus", "text", "getText", "setText", "title", "getTitle", "setTitle", "component1", "copy", "equals", "", "other", "", "hashCode", "", "toString", "social-media-calendar"})
 @javax.persistence.Entity()
 public final class Posting implements java.io.Serializable {
     @org.jetbrains.annotations.Nullable()
@@ -21,13 +21,11 @@ public final class Posting implements java.io.Serializable {
     @javax.persistence.Column(nullable = true)
     private java.lang.String picture;
     @org.jetbrains.annotations.Nullable()
-    @javax.persistence.Temporal(value = javax.persistence.TemporalType.TIMESTAMP)
     @javax.persistence.Column(nullable = true)
-    private java.util.Date publishDate;
+    private java.time.LocalDateTime publishDate;
     @org.jetbrains.annotations.Nullable()
-    @javax.persistence.Temporal(value = javax.persistence.TemporalType.TIMESTAMP)
     @javax.persistence.Column(nullable = true)
-    private java.util.Date plannedDate;
+    private java.time.LocalDateTime plannedDate;
     @org.jetbrains.annotations.Nullable()
     @javax.persistence.Column(nullable = true)
     private java.lang.String status;
@@ -84,21 +82,21 @@ public final class Posting implements java.io.Serializable {
     }
     
     @org.jetbrains.annotations.Nullable()
-    public final java.util.Date getPublishDate() {
+    public final java.time.LocalDateTime getPublishDate() {
         return null;
     }
     
     public final void setPublishDate(@org.jetbrains.annotations.Nullable()
-    java.util.Date p0) {
+    java.time.LocalDateTime p0) {
     }
     
     @org.jetbrains.annotations.Nullable()
-    public final java.util.Date getPlannedDate() {
+    public final java.time.LocalDateTime getPlannedDate() {
         return null;
     }
     
     public final void setPlannedDate(@org.jetbrains.annotations.Nullable()
-    java.util.Date p0) {
+    java.time.LocalDateTime p0) {
     }
     
     @org.jetbrains.annotations.Nullable()

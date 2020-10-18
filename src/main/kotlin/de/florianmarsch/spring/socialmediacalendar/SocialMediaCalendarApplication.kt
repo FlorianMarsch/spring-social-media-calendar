@@ -4,6 +4,7 @@ import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 import org.springframework.boot.autoconfigure.SpringBootApplication
 import org.springframework.boot.runApplication
+import java.util.*
 
 @SpringBootApplication
 class SocialMediaCalendarApplication{
@@ -27,5 +28,6 @@ class SocialMediaCalendarApplication{
 }
 
 fun main(args: Array<String>) {
+	TimeZone.setDefault(TimeZone.getTimeZone("Etc/UTC"));
 	runApplication<SocialMediaCalendarApplication>(*args)
 }

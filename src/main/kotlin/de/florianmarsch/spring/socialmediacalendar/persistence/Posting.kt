@@ -2,6 +2,7 @@ package de.florianmarsch.spring.socialmediacalendar.persistence
 
 import java.io.InputStream
 import java.io.Serializable
+import java.time.LocalDateTime
 import java.util.*
 import javax.persistence.*
 
@@ -27,12 +28,10 @@ data class Posting(
         var picture : String? = null
 
         @Column(nullable = true)
-        @Temporal(TemporalType.TIMESTAMP)
-        var publishDate : Date? = null
+        var publishDate : LocalDateTime? = null
 
         @Column(nullable = true)
-        @Temporal(TemporalType.TIMESTAMP)
-        var plannedDate : Date? = null
+        var plannedDate : LocalDateTime? = null
 
         @Column(nullable = true)
         var status : String? = null

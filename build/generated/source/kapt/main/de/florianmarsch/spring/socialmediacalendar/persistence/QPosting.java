@@ -29,9 +29,9 @@ public class QPosting extends EntityPathBase<Posting> {
 
     public final StringPath picture = createString("picture");
 
-    public final DateTimePath<java.util.Date> plannedDate = createDateTime("plannedDate", java.util.Date.class);
+    public final DateTimePath<java.time.LocalDateTime> plannedDate = createDateTime("plannedDate", java.time.LocalDateTime.class);
 
-    public final DateTimePath<java.util.Date> publishDate = createDateTime("publishDate", java.util.Date.class);
+    public final DateTimePath<java.time.LocalDateTime> publishDate = createDateTime("publishDate", java.time.LocalDateTime.class);
 
     public final StringPath status = createString("status");
 

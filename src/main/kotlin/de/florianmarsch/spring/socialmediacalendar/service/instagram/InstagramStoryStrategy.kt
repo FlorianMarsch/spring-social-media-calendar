@@ -11,6 +11,7 @@ import org.brunocvcunha.instagram4j.requests.payload.InstagramConfigureStoryResu
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
 import java.io.File
+import java.time.LocalDateTime
 import java.util.*
 
 
@@ -42,7 +43,7 @@ class InstagramStoryStrategy : PostingStrategy{
 
             response.status = storyResult.status
             response.link = storyResult.checkpoint_url
-            response.publishDate = Date()
+            response.publishDate = LocalDateTime.now()
         }
 
         return response

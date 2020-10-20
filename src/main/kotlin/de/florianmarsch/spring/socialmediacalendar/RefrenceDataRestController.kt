@@ -18,6 +18,7 @@ import org.springframework.web.client.HttpClientErrorException
 import java.time.Clock
 import java.time.DayOfWeek
 import java.time.LocalDateTime
+import java.time.ZoneId
 import java.util.*
 import javax.persistence.EntityManager
 
@@ -49,7 +50,7 @@ class ReferenceDataRestController {
 
 
 		val condition = BooleanBuilder()
-		condition.and(QPosting.posting.plannedDate.before(LocalDateTime.now(Clock.systemUTC())))
+		condition.and(QPosting.posting.plannedDate.before(LocalDateTime.now(ZoneId.of("CET"))))
 		condition.and(QPosting.posting.plannedDate.isNotNull)
 		condition.and(QPosting.posting.publishDate.isNull)
 		condition.and(QPosting.posting.picture.isNotNull)

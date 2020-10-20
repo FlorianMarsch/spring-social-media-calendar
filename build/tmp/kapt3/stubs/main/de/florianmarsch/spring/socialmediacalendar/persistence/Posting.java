@@ -6,13 +6,14 @@ import java.lang.System;
 @javax.persistence.Entity()
 public final class Posting implements java.io.Serializable {
     @org.jetbrains.annotations.Nullable()
-    @javax.persistence.Column(nullable = false)
+    @javax.persistence.Column(nullable = true)
     private java.lang.String title;
     @org.jetbrains.annotations.Nullable()
-    @javax.persistence.Column(nullable = false)
+    @javax.persistence.Column(nullable = true)
     private java.lang.String description;
     @org.jetbrains.annotations.Nullable()
     @javax.persistence.Column(nullable = true)
+    @javax.persistence.Lob()
     private java.lang.String text;
     @org.jetbrains.annotations.Nullable()
     @javax.persistence.Column(nullable = true)

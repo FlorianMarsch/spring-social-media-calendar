@@ -12,12 +12,13 @@ data class Posting(
         var id: String = UUID.randomUUID().toString()
 ) :Serializable{
 
-        @Column(nullable = false)
+        @Column(nullable = true)
         var title : String? = null
 
-        @Column(nullable = false)
+        @Column(nullable = true)
         var description : String? = null
 
+        @Lob
         @Column(nullable = true)
         var text : String? = null
 

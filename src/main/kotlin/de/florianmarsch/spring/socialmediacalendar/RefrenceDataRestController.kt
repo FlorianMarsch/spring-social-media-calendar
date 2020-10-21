@@ -12,6 +12,7 @@ import org.slf4j.Logger
 import org.slf4j.LoggerFactory
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.format.annotation.DateTimeFormat
+import org.springframework.transaction.annotation.Transactional
 
 import org.springframework.web.bind.annotation.*
 import org.springframework.web.client.HttpClientErrorException
@@ -84,6 +85,7 @@ class ReferenceDataRestController {
 	}
 
 
+	@Transactional(readOnly=true)
 	@GetMapping("/api/calendar")
 	fun getCalendarPage(
 			@DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME)

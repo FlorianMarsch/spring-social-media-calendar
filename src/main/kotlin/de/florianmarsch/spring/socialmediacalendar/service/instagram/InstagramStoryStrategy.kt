@@ -6,6 +6,7 @@ import de.florianmarsch.spring.socialmediacalendar.service.PostingStrategy
 import org.brunocvcunha.instagram4j.Instagram4j
 import org.brunocvcunha.instagram4j.requests.InstagramUploadStoryPhotoRequest
 import org.brunocvcunha.instagram4j.requests.payload.InstagramConfigureStoryResult
+import org.brunocvcunha.instagram4j.requests.payload.InstagramLoginResult
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
 import java.io.File
@@ -29,6 +30,7 @@ class InstagramStoryStrategy : PostingStrategy{
         instagram.apply {
             setup()
             login()
+
 
             val file: File = File.createTempFile(UUID.randomUUID().toString(),".jpg")
             URL(posting.picture).openConnection().getInputStream().copyTo(FileOutputStream(file))

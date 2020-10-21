@@ -41,6 +41,7 @@ class ReferenceDataRestController {
 	@Autowired
 	lateinit var postingServicer : PostingServicer
 
+	@Transactional
 	@GetMapping("/api/theWorkDone")
 	fun proccessPostings() {
 

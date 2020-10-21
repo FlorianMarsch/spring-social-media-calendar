@@ -2,14 +2,11 @@ package de.florianmarsch.spring.socialmediacalendar.service.calendar
 
 import de.florianmarsch.spring.socialmediacalendar.persistence.Channel
 import de.florianmarsch.spring.socialmediacalendar.persistence.Posting
-import de.florianmarsch.spring.socialmediacalendar.persistence.Upload
 import java.time.DayOfWeek
 import java.time.format.DateTimeFormatter
-import java.time.format.DateTimeFormatterBuilder
 
 class CalendarEntry {
     var channel : Channel? = null
-    var upload : Upload? = null
     var posting : Posting? = null
 }
 

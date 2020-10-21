@@ -38,9 +38,6 @@ class ReferenceDataRestController {
 	lateinit var postingRepo : PostingsRepository
 
 	@Autowired
-	lateinit var uploadRepo : UploadRepository
-
-	@Autowired
 	lateinit var postingServicer : PostingServicer
 
 	@GetMapping("/api/theWorkDone")
@@ -124,7 +121,6 @@ class ReferenceDataRestController {
 					calenadrResponse.add(CalendarEntry().apply{
 						posting = it
 						channel = it.channel?.let{channelRepo.findById(it).get()}
-						upload = it.picture?.let{uploadRepo.findById(it).get()}
 					})
 				}
 

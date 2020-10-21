@@ -9,6 +9,8 @@ import org.brunocvcunha.instagram4j.requests.payload.InstagramConfigureStoryResu
 import org.springframework.beans.factory.annotation.Autowired
 import org.springframework.stereotype.Service
 import java.io.File
+import java.io.FileOutputStream
+import java.net.URL
 import java.time.LocalDateTime
 import java.util.*
 
@@ -29,6 +31,7 @@ class InstagramStoryStrategy : PostingStrategy{
             login()
 
             val file: File = File.createTempFile(UUID.randomUUID().toString(),".jpg")
+            URL(posting.picture).openConnection().getInputStream().copyTo(FileOutputStream(file))
 
 
             //val decode: ByteArray = Base64.getDecoder().decode(findById.file)

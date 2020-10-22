@@ -52,6 +52,7 @@ dependencies {
 	annotationProcessor(group = "com.querydsl", name = "querydsl-apt", classifier = "jpa")
 
 	kapt("com.querydsl:querydsl-apt:4.2.1:jpa")
+	implementation( "org.apache.tika:tika-parsers:1.11")
 
 }
 

@@ -66,6 +66,7 @@ public class ReferenceDataRestController {
     }
     
     @org.springframework.web.bind.annotation.GetMapping(value = {"/api/theWorkDone"})
+    @org.springframework.transaction.annotation.Transactional()
     public void proccessPostings() {
     }
     
